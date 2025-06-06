@@ -2,8 +2,9 @@ package com.ypkim.oauth2;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.modulith.Modulith;
 
-@SpringBootApplication
+@Modulith
 public class Oauth2Application {
 
 	public static void main(String[] args) {
